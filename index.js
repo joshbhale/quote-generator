@@ -17,10 +17,6 @@ server.listen(port, hostname, () => {
 
 function randomQuote(quo) {
 
-  let randomNumber = {
-     Math.floor(Math.random() * 14)
-  }
-
   const inspQuote = ["Be yourself; everyone else is already taken - Oscar Wilde", "It is during our darkest moments that we must focus to see the light - Aristotle",
       "If opportunity doesn't knock, build a door -Milton Berle", 
       "Perfection is not attainable, but if we chase perfection we can catch excellence -Vince Lombardi",
@@ -36,6 +32,10 @@ function randomQuote(quo) {
   const funFact = ["Tigers have striped skin", "Octopi have three hearts", "Earth's rotation is slowing down",
       "The universe's average color is called Cosmic Latte", "The fear of long words is called Hippopotomonstrosesquippedaliophobia"
   ]
+
+  function randomNumber() {
+    Math.floor(Math.random() * 14)
+ }
 
   if (randomNumber === 0) {
     return inspQuote[0];
