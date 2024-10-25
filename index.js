@@ -44,32 +44,30 @@ function randomQuote(quo) {
   } else if (randomNumber === 2) {
     return funFact[0];
   } else if (randomNumber === 3) {
-    return
+    return inspQuote[1];
   } else if (randomNumber === 4) {
-    return
+    return philQuote[1];
   } else if (randomNumber === 5) {
-    return
+    return funFact[1];
   } else if (randomNumber === 6) {
-    return
+    return inspQuote[2];
   } else if (randomNumber === 7) {
-    return
+    return philQuote[2];
   } else if (randomNumber === 8) {
-    return
+    return funFact[2];
   } else if (randomNumber === 9) {
-    return
+    return inspQuote[3];
   } else if (randomNumber === 10) {
-    return
+    return philQuote[3];
   } else if (randomNumber === 11) {
-    return
+    return funFact[3];
   } else if (randomNumber === 12) {
-    return
+    return inspQuote[4];
   } else if (randomNumber === 13) {
-    return
+    return philQuote[4];
   } else if (randomNumber === 14) {
-    return
-  } else if (randomNumber === 15) {
-    return
+    return funFact[4];
   } else {
-
+    return "Something went wrong. Please try again."
   }
   }
