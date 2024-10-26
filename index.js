@@ -67,5 +67,5 @@ function randomQuote(inspQuote, philQuote, funFact) {
   } else {
     return "Something went wrong. Please try again."
   }
-  }
+  };
   
